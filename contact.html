@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-img">
+        <img src="./assets/cat.png" alt="" />
+      </div>
+      <div>
+        <ul class="navbar">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./education.html">Education</a></li>
+          <li><a href="#">Work Experience</a></li>
+          <li><a href="./contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="content-container">
+      <h1>Contact Me</h1>
+      <div class="form-container">
+        <p>Enter your Info.</p>
+
+        <form action="">
+          <label>Your Name <br /><input type="text" name="fname" /></label>
+          <br />
+          <label>Your Email <br /><input type="email" name="email" /></label>
+          <br />
+          <label for="gender">Gender</label>
+          <select name="gender-list" id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+            <option value="none">Prefer not to answer</option>
+          </select>
+          <br />
+          <label>message</label>
+          <br />
+          <textarea name="comment"></textarea><br />
+          <button type="button">send</button>
+          <button>clear</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
